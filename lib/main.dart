@@ -26,17 +26,19 @@ class BiodataPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ====== GANTI DATA DI BAWAH INI DENGAN DATA ANDA ======
     const nama = 'Wildan Rizal Sbara';
-    const inisial = 'Wl';
-    const nim = '241080200063';
+    const inisial = 'WL';
+    const nim = '241080200063'; // tetap pakai tanda petik
     const prodi = 'Informatika';
     const semester = 5;
     const kota = 'Sidoarjo';
     const email = 'wildanrizal@example.com';
-    const hobi = ['Membaca', 'Bersepeda', 'mancing'];
+    const hobi = ['Membaca', 'Bersepeda', 'Mancing'];
     const keahlian = ['Dart dasar', 'Flutter dasar', 'Desain UI'];
     const tentang = 'Saya mahasiswa Informatika yang sedang '
         'belajar membangun aplikasi dengan Flutter.';
+    // =======================================================
 
     return Scaffold(
       appBar: AppBar(title: const Text('Biodata Diri')),
